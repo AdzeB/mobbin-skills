@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mobbin app design"
+  short_description: "Build and verify native, React Native, and Expo UI"
+  default_prompt: "Use $mobbin-app-design to improve this mobile screen in its existing stack and verify the affected flow."

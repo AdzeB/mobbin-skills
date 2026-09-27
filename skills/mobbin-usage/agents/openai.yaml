@@ -1,0 +1,11 @@
+interface:
+  display_name: "Mobbin research"
+  short_description: "Turn Mobbin screens and flows into design decisions"
+  default_prompt: "Use $mobbin-usage to research references for this design task and apply the findings within the requested scope."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mobbin"
+      description: "Mobbin product design references"
+      transport: "streamable_http"
+      url: "https://api.mobbin.com/mcp"

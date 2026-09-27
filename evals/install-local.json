@@ -1,0 +1,45 @@
+{
+  "source": ".",
+  "cli": "skills@1.7.0",
+  "status": "passed",
+  "cases": [
+    {
+      "name": "mobbin-app-design",
+      "status": "passed",
+      "sha256": {
+        "mobbin-app-design/LICENSE": "c14e0d04cd4409ba635cf1fce7239ebb6ef31225415404b01e681d7d7e096921",
+        "mobbin-app-design/SKILL.md": "eb21ce52d06391da9634a63858bc6b9eb13f2bb7a3fc2db75f3456a5c076d594",
+        "mobbin-app-design/agents/openai.yaml": "8908e360075eb6fbbdd24e091f2a76dfb606092fb6cfc154dd0092fe6a007bf0",
+        "mobbin-app-design/references/expo-react-native.md": "c6b8d9f8dd65656209f25465214ef4f689f1329627c9d07f45e0b83e31be767e",
+        "mobbin-app-design/references/native.md": "3e254bb803f329c6962290d6b454f5ad974acfea024990c2964708e8e653e052",
+        "mobbin-app-design/references/verification.md": "8567ac7f6c90cd28b21703f7075f3a2c4814efe4db486e672bb26ebf2a0f532f"
+      }
+    },
+    {
+      "name": "mobbin-usage",
+      "status": "passed",
+      "sha256": {
+        "mobbin-usage/LICENSE": "c14e0d04cd4409ba635cf1fce7239ebb6ef31225415404b01e681d7d7e096921",
+        "mobbin-usage/SKILL.md": "ac815a582c04060eb0949573b081439ccd61b942fe51017fcec2e3152646a98d",
+        "mobbin-usage/agents/openai.yaml": "0ae0e2726d8363e5b213f6db579a1b1d1a0bd6e9a519b6ad63c9ac4ccbe203b7",
+        "mobbin-usage/references/mcp.md": "ef256588c32a3ac8d5d362932670c9d317ca681d759bd5a36b1ddd34d6c0c0cd"
+      }
+    },
+    {
+      "name": "paired",
+      "status": "passed",
+      "sha256": {
+        "mobbin-app-design/LICENSE": "c14e0d04cd4409ba635cf1fce7239ebb6ef31225415404b01e681d7d7e096921",
+        "mobbin-app-design/SKILL.md": "eb21ce52d06391da9634a63858bc6b9eb13f2bb7a3fc2db75f3456a5c076d594",
+        "mobbin-app-design/agents/openai.yaml": "8908e360075eb6fbbdd24e091f2a76dfb606092fb6cfc154dd0092fe6a007bf0",
+        "mobbin-app-design/references/expo-react-native.md": "c6b8d9f8dd65656209f25465214ef4f689f1329627c9d07f45e0b83e31be767e",
+        "mobbin-app-design/references/native.md": "3e254bb803f329c6962290d6b454f5ad974acfea024990c2964708e8e653e052",
+        "mobbin-app-design/references/verification.md": "8567ac7f6c90cd28b21703f7075f3a2c4814efe4db486e672bb26ebf2a0f532f",
+        "mobbin-usage/LICENSE": "c14e0d04cd4409ba635cf1fce7239ebb6ef31225415404b01e681d7d7e096921",
+        "mobbin-usage/SKILL.md": "ac815a582c04060eb0949573b081439ccd61b942fe51017fcec2e3152646a98d",
+        "mobbin-usage/agents/openai.yaml": "0ae0e2726d8363e5b213f6db579a1b1d1a0bd6e9a519b6ad63c9ac4ccbe203b7",
+        "mobbin-usage/references/mcp.md": "ef256588c32a3ac8d5d362932670c9d317ca681d759bd5a36b1ddd34d6c0c0cd"
+      }
+    }
+  ]
+}
