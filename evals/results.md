@@ -11,7 +11,7 @@ Date: 2026-09-27. Package version: 1.0.0.
 - The same three installation cases passed again after the research improvements. The final [local machine-readable result](install-local.json) records SHA-256 values. Full CLI transcripts remain in the executing checkout's ignored `work/install-check-*/` directories; rerun `python3 scripts/check-install.py` to produce a fresh artifact.
 - Invalid installer source input was rejected before invoking the CLI.
 
-GitHub delivery will be verified after the public repository is created, using `python3 scripts/check-install.py AdzeB/mobbin-skills`.
+GitHub delivery also passed all three fresh-project cases against public source `AdzeB/mobbin-skills` at commit `92d9b89`, including exact installed bytes and GitHub lockfile provenance. See the [remote machine-readable result](install-github.json). Public visibility was also confirmed with an unauthenticated GitHub API request. Reproduce with `python3 scripts/check-install.py AdzeB/mobbin-skills`.
 
 ## Usage iterations
 
